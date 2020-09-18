@@ -1,6 +1,6 @@
 package beans;
 
-public class BeanCategorias {
+public class BeansCategorias {
 
 	private Long id;
 	private String nome;
