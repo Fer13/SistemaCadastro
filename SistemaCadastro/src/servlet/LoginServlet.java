@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.DaoLogin;
 
-@WebServlet("/LoginServlet")
+@WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -41,7 +41,7 @@ public class LoginServlet extends HttpServlet {
 					dispatcher.forward(request, response);
 				}
 			}else {
-				RequestDispatcher dispatcher = request.getRequestDispatcher("idex.jsp");
+				RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
 				dispatcher.forward(request, response);
 			}
 		} catch (ServletException e) {
