@@ -29,6 +29,7 @@ public class BeansUsuarios {
 	
 	
 	public String getTempFotoUser() {
+		tempFotoUser = "data:" + contentType + ";base64," + fotoBase64;
 		return tempFotoUser;
 	}
 	public void setTempFotoUser(String tempFotoUser) {
