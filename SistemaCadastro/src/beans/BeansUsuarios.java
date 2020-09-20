@@ -103,8 +103,8 @@ public class BeansUsuarios {
 	public String getEstado() {
 		return estado;
 	}
-	public void setEstado(String stado) {
-		this.estado = stado;
+	public void setEstado(String estado) {
+		this.estado = estado;
 	}
 	public String getIbge() {
 		return ibge;
