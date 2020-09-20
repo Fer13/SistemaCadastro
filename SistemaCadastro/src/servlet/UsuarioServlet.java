@@ -104,7 +104,7 @@ public class UsuarioServlet extends HttpServlet {
 		
 		if(acao != null && acao.equalsIgnoreCase("reset")) {
 			try {
-				RequestDispatcher view = request.getRequestDispatcher("/cadatroUsuario.jsp");
+				RequestDispatcher view = request.getRequestDispatcher("/cadastroUsuario.jsp");
 				request.setAttribute("usuarios", daoUsuario.listar());
 				view.forward(request, response);
 			} catch (Exception e) {

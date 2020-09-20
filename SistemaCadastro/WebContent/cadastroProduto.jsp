@@ -29,17 +29,17 @@
 			<ul class="form-style-1">
 				<table>
 					<tr>
-						<td>Codigo:</td>
+						<td>Codigo: </td>
 						<td><input type="text" readonly="readonly" id="id" name="id"
 							class="form-control form-control-sm" value="${produto.id }"></td>
 					</tr>
 					<tr>
-						<td>Nome:</td>
+						<td>Nome: </td>
 						<td><input type="text" id="nome" name="nome"
 							class="form-control form-control-sm" value="${produto.nome }"></td>
 					</tr>
 					<tr>
-						<td>Quantidade:</td>
+						<td>Quantidade: </td>
 						<td><input type="text" id="quantidade" name="quantidade"
 							class="form-control form-control-sm"
 							value="${produto.quantidade }"></td>
@@ -50,12 +50,12 @@
 							class="form-control form-control-sm" value="${produto.valor }"></td>
 					</tr>-->
 					<tr>
-						<td>Valor:</td>
+						<td>Valor: </td>
 						<td><input type="text" name="valor"
 							class="form-control form-control-sm" value="${produto.valor }"></td>
 					</tr>
 					<tr>
-						<td>Categorias:</td>
+						<td>Categorias: </td>
 						<td><select id="categorias" name="categoria_id"
 							class="form-control form-control-sm">
 								<c:forEach items="${categorias }" var="cat">
